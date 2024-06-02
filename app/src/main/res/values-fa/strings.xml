@@ -1,76 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="stateText">متصل نیستید</string>
-    <string name="basedOnWarp">بر پایه وارپ</string>
-    <string name="aboutApp">درباره برنامه</string>
-    <string name="aboutAppDesc">"این برنامه با هدف دسترسی به اینترنت آزاد تهیه شده و هرگونه استفاده تجاری از آن مجاز نیست.\n\n\n اینترنت برای همه، یا هیچ‌کس! "</string>
-    <string name="appVersion">نسخه برنامه : 2</string>
-    <string name="logApp">لاگ برنامه</string>
-    <string name="means">یعنی "فراموشی، بی‌خیالی"</string>
-    <string name="dontForget">فراموش نکنید!</string>
-    <string name="segaro">#سگارو</string>
-    <string name="yousef">#یوسف_قبادی</string>
-    <string name="slogan">اینترنت برای همه، یا هیچکس</string>
-    <string name="blackList">لیست سیاه</string>
-    <string name="disabledR">غیرفعال</string>
-    <string name="disabledRText">در حالت غیرفعال، ترافیک تمامی برنامه ها از VPN عبور می‌کند.</string>
-    <string name="enabledR">فعال</string>
-    <string name="enabledRText">در حالت فعال، ترافیک برنامه‌های انتخابی از VPN عبور نمی‌کند.</string>
-    <string name="showSystemAppsText">نمایش برنامه‌های سیستمی</string>
-    <string name="settingsText">تنظیمات</string>
-    <string name="endpointText">اندپوینت</string>
-    <string name="endpointTextDesc">ترکیبی از IP یا نام دامنه، به‌همراه پورت</string>
-    <string name="portTunText">پورت تونل</string>
-    <string name="portTunTextDesc">تعیین پورت تونل برنامه</string>
-    <string name="blackListTextDesc">تعیین کنید چه برنامه‌هایی از VPN استفاده نکنند</string>
-    <string name="connectFromLanText">اتصال از LAN</string>
-    <string name="connectFromLanTextDesc">امکان اتصال سایر دستگاه‌های شبکه</string>
-    <string name="psiphonText">سایفون</string>
-    <string name="psiphonTextDesc">فعالسازی سایفون</string>
-    <string name="chooseText">انتخاب کشور</string>
-    <string name="chooseTextDesc">کشوری که از آن به اینترنت متصل می‌شوید</string>
-    <string name="licenseText">لایسنس</string>
-    <string name="licenseTextDesc">اگر لایسنس دارید (هر لایسنس 2x می‌شود)</string>
-    <string name="goolText">گول</string>
-    <string name="goolTextDesc">فعالسازی Warp In Warp</string>
-    <string name="editSheetEndpoint">تغییر مقدار Endpoint</string>
-    <string name="cancel">انصراف</string>
-    <string name="update">بروزرسانی</string>
-    <string name="notConnected">متصل نیستید</string>
-    <string name="connecting">در حال اتصال…</string>
-    <string name="connected">اتصال برقرار شد</string>
-    <string-array name="countries">
-        <item>اتریش</item>
-        <item>بلژیک</item>
-        <item>برزیل</item>
-        <item>بلغارستان</item>
-        <item>کانادا</item>
-        <item>کرواسی</item>
-        <item>چک</item>
-        <item>دانمارک</item>
-        <item>استونی</item>
-        <item>فنلاند</item>
-        <item>فرانسه</item>
-        <item>آلمان</item>
-        <item>مجارستان</item>
-        <item>هند</item>
-        <item>ایرلند</item>
-        <item>ایتالیا</item>
-        <item>ژاپن</item>
-        <item>لتونی</item>
-        <item>هلند</item>
-        <item>نروژ</item>
-        <item>لهستان</item>
-        <item>پرتغال</item>
-        <item>رومانی</item>
-        <item>صربستان</item>
-        <item>سنگاپور</item>
-        <item>اسلواکی</item>
-        <item>اسپانیا</item>
-        <item>سوئد</item>
-        <item>سوئیس</item>
-        <item>اوکراین</item>
-        <item>بریتانیا</item>
-        <item>ایالات متحده</item>
-    </string-array>
+  <string name="app_name">Oblivion</string>
+  <string name="stateText">Not Connected</string>
+  <string name="basedOnWarp">Based on Warp</string>
+  <string name="aboutApp">About the App</string>
+  <string name="aboutAppDesc">"This application is designed to access the internet freely, and any commercial use of it is prohibited.\n\n\n Internet for all, or no one! "</string>
+  <string name="appVersion">App Version: 2</string>
+  <string name="logApp">App Log</string>
+  <string name="means" formatted="true">Means \"unawareness, ignorance\"</string>
+  <string name="dontForget">Don\'t Forget!</string>
+  <string name="segaro">#Segaro</string>
+  <string name="yousef">#Yousef_Ghobadi</string>
+  <string name="slogan">Internet for All, or No One</string>
+  <string name="blackList">Blacklist</string>
+  <string name="disabledR">Disabled</string>
+  <string name="disabledRText">In disabled mode, traffic of all apps passes through VPN.</string>
+  <string name="enabledR">Enabled</string>
+  <string name="enabledRText">In enabled mode, traffic of selected apps does not pass through VPN.</string>
+  <string name="showSystemAppsText">Show System Apps</string>
+  <string name="settingsText">Settings</string>
+  <string name="endpointText">Endpoint</string>
+  <string name="endpointTextDesc">Combination of IP or domain name, along with port</string>
+  <string name="portTunText">Tunnel Port</string>
+  <string name="portTunTextDesc">Specify the tunnel port for the app</string>
+  <string name="blackListTextDesc">Specify which apps should not use VPN</string>
+  <string name="connectFromLanText">Connect from LAN</string>
+  <string name="connectFromLanTextDesc">Ability to connect other network devices</string>
+  <string name="psiphonText">Psiphon</string>
+  <string name="psiphonTextDesc">Activate Psiphon</string>
+  <string name="chooseText">Choose Country</string>
+  <string name="chooseTextDesc">Country to connect to the internet from</string>
+  <string name="licenseText">License</string>
+  <string name="licenseTextDesc">If you have a license (each license is doubled)</string>
+  <string name="goolText">Gool</string>
+  <string name="goolTextDesc">Activate Warp In Warp</string>
+  <string name="editSheetEndpoint">Change Endpoint Value</string>
+  <string name="cancel">Cancel</string>
+  <string name="update">Update</string>
+  <string name="notConnected">Not Connected</string>
+  <string name="connecting">Connecting…</string>
+  <string name="connected">Connected</string>
+  <string-array name="countries">
+    <item>Austria</item>
+    <item>Belgium</item>
+    <item>Brazil</item>
+    <item>Bulgaria</item>
+    <item>Canada</item>
+    <item>Croatia</item>
+    <item>Czechia</item>
+    <item>Denmark</item>
+    <item>Estonia</item>
+    <item>Finland</item>
+    <item>France</item>
+    <item>Germany</item>
+    <item>Hungary</item>
+    <item>India</item>
+    <item>Ireland</item>
+    <item>Italy</item>
+    <item>Japan</item>
+    <item>Latvia</item>
+    <item>Netherlands</item>
+    <item>Norway</item>
+    <item>Poland</item>
+    <item>Portugal</item>
+    <item>Romania</item>
+    <item>Serbia</item>
+    <item>Singapore</item>
+    <item>Slovakia</item>
+    <item>Spain</item>
+    <item>Sweden</item>
+    <item>Switzerland</item>
+    <item>Ukraine</item>
+    <item>United Kingdom</item>
+    <item>United States</item>
+  </string-array>
 </resources>
